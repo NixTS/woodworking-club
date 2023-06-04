@@ -21,15 +21,26 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: "roboto condensed", arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--text-heading-color);
 }
 
+h3 {
+    font-size: 300%;
+    margin-top: 50px;
+}
+
 a {
     text-decoration: none;
+}
+
+p {
+    font-size: 140%;
+    text-align: justify;
 }
 
 /* logo and navigation */
@@ -57,7 +68,6 @@ a {
     color: var(--text-heading-color);
     position: sticky;
     top: 0;
-    z-index: 1;
 }
 
 #menu ul {
@@ -69,8 +79,8 @@ a {
     list-style: none;
 }
 
-#menu ul li i {
-    margin-right: 5px;
+#menu i {
+    margin-right: 10px;
 }
 
 /* nav menu hover animation */
@@ -153,8 +163,62 @@ a {
     }
 }
 
+/* what we do & why we do it */
+
+#what-we-do {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#what-we-do h3 {
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+#what-we-do>p {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+#what-we-do i {
+    margin: auto 10px;
+}
+
+#what-we-do h3 span {
+    font-size: 80%;
+    margin: auto 40px;
+}
+
+#what-text-container {
+    float: left;
+    display: flex;
+    justify-content: center
+}
+
+.what-text-box {
+    width: 500px;
+    height: 260px;
+}
+
+.border-left {
+    border-left: 2px solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+.border-right {
+    border-right: 2px solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+
 /*  temporary changes */
 
-section {
-    margin-bottom: 500px;
+#placeholder {
+    width: 400px;
+    background-color: red;
 }
