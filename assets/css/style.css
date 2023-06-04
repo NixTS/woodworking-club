@@ -6,8 +6,94 @@
     border: none;
 }
 
+:root {
+    --text-color: #3F372C;
+    --text-heading-color: #3F262C;
+    --object-background-color: #FFE7D2;
+}
+
+/* general */
+
 body {
-    font-family: Roboto Condensed, Arial, sans-serif;
-    font-weight: 700;
+    font-family: "open sans", arial, sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+h1,
+h2 {
+    font-family: "roboto condensed", arial, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-heading-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* logo and navigation */
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 360%;
+    font-weight: 800;
+    width: auto;
+    height: 80px;
+    background-color: var(--object-background-color);
+}
+
+#menu {
+    display: flex;
+    height: 56px;
+    font-family: "roboto condensed", arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 150%;
+    font-weight: 600;
+    background-color: var(--object-background-color);
+    color: var(--text-heading-color);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    }
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+#menu ul li i {
+    margin-right: 5px;
+}
+
+/* nav menu hover animation */
+
+#menu a {
+    color: inherit;
+    padding: 4px 50px;
+}
+
+#menu a:hover {
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.4s;
+}
+
+
+
+
+
+/*  temporary changes */
+
+
+section {
+    margin-bottom: 500px;
 }
