@@ -213,6 +213,46 @@ p {
     padding: 10px;
 }
 
+/* about us */
+
+#about-us {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-us h3 {
+    margin-bottom: 10px;
+}
+
+#about-us-container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    gap: 50px;
+}
+
+#about-us-container>div {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#team-skilled-joiner {
+    background-image: url('../images/skilled-joiner.jpg');
+}
+
+#team-joiner-laptop {
+    background-image: url('../images/joiner-using-laptop.jpg');
+}
+
+#team-joiner-drawing {
+    background-image: url('../images/joiner-drawing.jpg');
+
+}
+
 
 
 
