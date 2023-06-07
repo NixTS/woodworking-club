@@ -229,6 +229,7 @@ p {
 #about-us-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     height: 500px;
     gap: 50px;
 }
@@ -242,19 +243,43 @@ p {
 
 #team-skilled-joiner {
     background-image: url('../images/skilled-joiner.jpg');
+    order: 2;
 }
 
 #team-joiner-laptop {
     background-image: url('../images/joiner-using-laptop.jpg');
+    order: 3;
 }
 
 #team-joiner-drawing {
     background-image: url('../images/joiner-drawing.jpg');
+    order: 4;
 
 }
 
+/* gallery  */
 
+#gallery {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 200px 0;
+}
 
+#gallery h3 {
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+#gallery-photos {
+    clear: both;
+    line-height: 20px;
+    column-gap: 5px;
+    column-count: 4;
+}
+
+#gallery-photos>img {
+    width: 100%;
+}
 
 /*  temporary changes */
 
