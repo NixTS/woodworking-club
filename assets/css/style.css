@@ -19,6 +19,10 @@ body {
     font-family: "open sans", arial, sans-serif;
     font-weight: 400;
     color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 2560px;
 }
 
 h1,
@@ -47,7 +51,6 @@ p {
 /* background */
 
 body {
-    position: relative;
     width: 100%;
     background-image: url('../images/website-background.webp');
     background-size: auto;
