@@ -10,6 +10,7 @@
     --text-color: #3F372C;
     --text-heading-color: #3F262C;
     --object-background-color: #FFE7D2;
+    --object-border-color: #3F372C;
 }
 
 /* general */
@@ -319,6 +320,148 @@ p {
 
 #course-times p {
     font-weight: 700;
+
+}
+
+/* sign up and donate */
+
+#sign-up-donate {
+    display: flex;
+    justify-content: center;
+    margin: 100px 10% 0;
+}
+
+#form-container {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+
+.fieldset-outer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    background-color: var(--object-background-color);
+    border: 1px solid var(--object-border-color);
+    border-radius: 20px;
+    box-shadow: 0 0 3px var(--object-border-color);
+}
+
+fieldset h3 {
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+input[type=text],
+input[type=email],
+#donation-object {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-box input:hover,
+#donation-object:hover {
+    border: 1px solid var(--object-border-color);
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.form-box input:focus,
+#donation-object:focus {
+    border: 2px solid var(--object-border-color);
+    box-shadow: 0 0 3px var(--object-border-color);
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+#select-course {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-box>label,
+.form-box>span {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+#donation-description {
+    border-radius: 5px;
+    resize: none;
+    font-family: inherit;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+/* image upload */
+
+#file-button {
+    margin-bottom: 20px;
+}
+
+#file-button:hover {
+    padding: 0;
+    border: none;
+}
+
+input::file-selector-button {
+    height: 50px;
+    width: 50%;
+    font-size: 120%;
+    background-color: var(--text-heading-color);
+    color: var(--object-background-color);
+    border: none;
+    border-radius: 5px;
+}
+
+input::file-selector-button:hover {
+    font-size: 130%;
+    box-shadow: 0 0 3px var(--object-border-color);
+}
+
+input::file-selector-button:active {
+    font-size: 140%;
+    box-shadow: 0 0 3px var(--object-border-color);
+}
+
+/* form submit buttons */
+
+input[type=submit] {
+    height: 50px;
+    font-size: 120%;
+    background-color: var(--text-heading-color);
+    color: var(--object-background-color);
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    outline: none;
+    border: none;
+    padding: 0;
+    font-size: 130%;
+    box-shadow: 0 0 3px var(--object-border-color);
+}
+
+input[type=submit]:active {
+    outline: none;
+    border: none;
+    padding: 0;
+    font-size: 140%;
+    box-shadow: 0 0 3px var(--object-border-color);
 }
 
 /*  temporary changes */

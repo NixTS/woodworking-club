@@ -141,57 +141,58 @@
     </section>
     <section id="sign-up-donate">
         <div id="form-container">
-            <div id="form-sign-up">
-                <fieldset>
-                    <h3>Sign Up</h3>
-                    <form action="https://my-websites-database.com" method="POST">
-                        <label for="f-name">First Name</label>
-                        <input type="text" id="f-name" placeholder="Enter your first name" required>
-                        <label for="l-name">Last Name</label>
-                        <input type="text" id="l-name" placeholder="Enter your last name" required>
-                        <label for="e-mail">E-Mail</label>
-                        <input type="email" id="e-mail" placeholder="Enter your E-Mail Adress" required>
-                        <span>What course do you want to participate in?</span>
-                        <label for="open-workshop">Open Workshop</label>
-                        <input type="radio" id="open-workshop" name="option" value="option1" required>
-                        <label for="beginner-course">Beginner Course</label>
-                        <input type="radio" id="open-workshop" name="option" value="option1" required>
-                        <label for="both">Both</label>
-                        <input type="radio" id="both" name="option" value="option1" required>
-                        <input type="submit" name="submit-sign-up" id="submit-sign-up" value="Sign Up!">
-                    </form>
-                </fieldset>
-            </div>
-            <div id="form-donate">
-                <fieldset>
-                    <h3>Donate</h3>
-                    <form action="https://my-websites-database.com" method="POST">
-                        <label for="f-name">First Name</label>
-                        <input type="text" id="f-name" placeholder="Enter your first name" required>
-                        <label for="l-name">Last Name</label>
-                        <input type="text" id="l-name" placeholder="Enter your last name" required>
-                        <label for="e-mail">E-Mail</label>
-                        <input type="email" id="e-mail" placeholder="Enter your E-Mail Adress" required>
-                        <label for="donation-object" class="block-label">What do you want to donate?</label>
-                        <select name="donation-object" id="donation-object" required>
-                            <option value="wood">Wood</option>
-                            <option value="tools">Tools</option>
-                            <option value="money">Money</option>
-                            <option value="other">Other</option>
-                        </select>
-                        <label for="donation-description">Tell us more about your donation:</label>
-                        <textarea name="donation-description" id="donation-description" cols="50" rows="5"
-                            placeholder="Donation description"></textarea>
-                        <br>
-                        <span>and / or</span>
-                        <span>Upload some Images</span>
-                        <label for="donation-image-upload"></label>
-                        <input type="file" name="donation-image-upload" id="donation-image-upload" accept="image/*"
-                            multiple>
-                        <input type="submit" name="submit-donation" id="submit-donation" value="Donate">
-                    </form>
-                </fieldset>
-            </div>
+            <fieldset class="fieldset-outer">
+                <h3>Sign Up</h3>
+                <form class="form-box" action="https://my-websites-database.com" method="POST">
+                    <label for="f-name-1">First Name</label>
+                    <input type="text" id="f-name-1" placeholder="Enter your first name" required>
+                    <label for="l-name-1">Last Name</label>
+                    <input type="text" id="l-name-1" placeholder="Enter your last name" required>
+                    <label for="e-mail-1">E-Mail</label>
+                    <input type="email" id="e-mail-1" placeholder="Enter your E-Mail Adress" required>
+                    <span>What course do you want to participate in?</span>
+                    <div id="select-course">
+                        <span>
+                            <input type="radio" id="open-workshop" name="option" value="option1" required>
+                            <label for="open-workshop">Open Workshop</label>
+                        </span>
+                        <span>
+                            <input type="radio" id="beginner-course" name="option" value="option1" required>
+                            <label for="beginner-course">Beginner Course</label>
+                        </span>
+                        <span>
+                            <input type="radio" id="both" name="option" value="option1" required>
+                            <label for="both">Both</label>
+                        </span>
+                    </div>
+                    <input type="submit" name="submit-sign-up" id="submit-sign-up" value="Sign Up!">
+                </form>
+            </fieldset>
+            <fieldset class="fieldset-outer">
+                <h3>Donate</h3>
+                <form class="form-box" action="https://my-websites-database.com" method="POST">
+                    <label for="f-name-2">First Name</label>
+                    <input type="text" id="f-name-2" placeholder="Enter your first name" required>
+                    <label for="l-name-2">Last Name</label>
+                    <input type="text" id="l-name-2" placeholder="Enter your last name" required>
+                    <label for="e-mail-2">E-Mail</label>
+                    <input type="email" id="e-mail-2" placeholder="Enter your E-Mail Adress" required>
+                    <label for="donation-object" class="block-label">What do you want to donate?</label>
+                    <select name="donation-object" id="donation-object" required>
+                        <option value="wood">Wood</option>
+                        <option value="tools">Tools</option>
+                        <option value="money">Money</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="donation-description">Tell us more about your donation:</label>
+                    <textarea type="text" name="donation-description" id="donation-description" cols="50" rows="10"
+                        placeholder="Donation description"></textarea>
+                    <label for="donation-image-upload">Upload some Images</label>
+                    <input id="file-button" type="file" name="donation-image-upload" id="donation-image-upload"
+                        accept="image/*" multiple>
+                    <input type="submit" name="submit-donation" id="submit-donation" value="Donate">
+                </form>
+            </fieldset>
         </div>
     </section>
     <footer>
