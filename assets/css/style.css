@@ -44,6 +44,18 @@ p {
     text-align: justify;
 }
 
+/* background */
+
+body {
+    position: relative;
+    width: 100%;
+    background-image: url('../images/website-background.webp');
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 5000px rgba(255, 255, 255, 0.7);
+}
+
 /* logo and navigation */
 
 #logo {
@@ -255,7 +267,6 @@ p {
 #team-joiner-drawing {
     background-image: url('../images/joiner-drawing.jpg');
     order: 4;
-
 }
 
 /* gallery  */
@@ -320,7 +331,6 @@ p {
 
 #course-times p {
     font-weight: 700;
-
 }
 
 /* sign up and donate */
