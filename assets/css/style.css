@@ -51,6 +51,11 @@ p {
     text-align: justify;
 }
 
+.section-margin {
+    margin-top: 100px;
+    padding: 20px;
+}
+
 /* background */
 
 body {
@@ -223,7 +228,6 @@ header {
 /* what we do & why we do it */
 
 #what-we-do {
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -273,7 +277,6 @@ header {
 /* about us */
 
 #about-us {
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -318,7 +321,6 @@ header {
 #gallery {
     display: flex;
     flex-direction: column;
-    margin: 100px 200px 0;
 }
 
 #gallery h3 {
@@ -340,7 +342,6 @@ header {
 /* courses */
 
 #course {
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -382,7 +383,6 @@ header {
 #sign-up-donate {
     display: flex;
     justify-content: center;
-    margin: 100px 10% 0;
 }
 
 #form-container {
