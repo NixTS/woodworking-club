@@ -427,10 +427,16 @@ header {
     line-height: 20px;
     column-gap: 5px;
     column-count: 4;
+    margin-top: 50px;
 }
 
 #gallery-photos>img {
     width: 100%;
+    padding: 2px;
+    border: 2px solid var(--object-border-color);
+    border-radius: 2px;
+    box-shadow: 0 0 10px var(--object-border-color);
+    box-sizing: border-box;
 }
 
 /* courses */
