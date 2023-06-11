@@ -234,44 +234,64 @@ header {
 
 #what-we-do h3 {
     align-self: center;
-    margin-bottom: 10px;
-}
-
-#what-we-do>p {
-    align-self: center;
-    margin-bottom: 20px;
-}
-
-#what-we-do i {
-    margin: auto 10px;
 }
 
 #what-we-do h3 span {
     font-size: 80%;
-    margin: auto 40px;
+    margin: 0 50px;
 }
 
-#what-text-container {
-    float: left;
+.what-why-caption {
+    font-size: 180%;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--text-heading-color);
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+#what-container {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3vw;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.what-inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
 }
 
 .what-text-box {
-    width: 500px;
     height: 260px;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: var(--object-background-color);
+    box-shadow: 0 0 10px var(--object-border-color);
+    border-radius: 10px;
 }
 
-.border-left {
-    border-left: 2px solid;
-    margin: 20px;
-    padding: 10px;
+#what-center-image {
+    width: 500px;
+    height: 500px;
+    padding: 2px;
+    border: 2px solid var(--object-border-color);
+    border-radius: 2px;
+    box-shadow: 0 0 10px var(--object-border-color);
+    box-sizing: border-box;
 }
 
-.border-right {
-    border-right: 2px solid;
-    margin: 20px;
-    padding: 10px;
+#what-image {
+    background-image: url(../images/joiner-working-together.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
 }
 
 /* about us */
