@@ -164,7 +164,7 @@ header {
     background-repeat: no-repeat;
     background-position: top left;
     transform-origin: top left;
-    animation: hero-zoom 3s ease-in-out;
+    animation: hero-zoom 2s ease-in-out;
 }
 
 /* hero image animation */
@@ -192,7 +192,7 @@ header {
     text-transform: lowercase;
     font-size: 600%;
     letter-spacing: 8px;
-    padding-left: 30px;
+    padding-left: 3%;
     text-shadow: 1px 1px 0 var(--object-background-color), -1px -1px 0 var(--object-background-color), 1px -1px 0 var(--object-background-color), -1px 1px 0 var(--object-background-color);
 }
 
@@ -200,7 +200,7 @@ header {
 
 #slogan-container {
     animation: blend-in 1s ease-in;
-    animation-delay: 3s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
