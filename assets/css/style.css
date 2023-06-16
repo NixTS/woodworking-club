@@ -300,7 +300,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 #about-us h3 {
@@ -344,8 +343,8 @@ header {
 .about-us-team-box {
     display: flex;
     flex-direction: row;
-    flex: none;
-    width: 640px;
+    flex: 1;
+    align-self: stretch;
     gap: 20px;
     padding: 20px;
     background-color: var(--object-background-color);
@@ -354,7 +353,7 @@ header {
 }
 
 .team-images {
-    height: 440px;
+    height: 360px;
     padding: 2px;
     border: 2px solid var(--object-border-color);
     border-radius: 2px;
@@ -396,7 +395,7 @@ header {
 
 .overlay {
     position: absolute;
-    bottom: 4px;
+    bottom: 90px;
     left: 4px;
     right: 4px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -407,7 +406,7 @@ header {
 }
 
 .wrapper:hover .overlay {
-    height: 432px;
+    height: 352px;
 }
 
 /* gallery  */
