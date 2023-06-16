@@ -479,6 +479,9 @@ header {
     height: 25%;
     padding-left: 2vw;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .border-b-10px {
