@@ -678,10 +678,169 @@ footer ul {
 
 /* media query */
 
-/* Styles for screens 320px and larger */
-@media screen and (min-width: 320px) {
+/* Styles for screens 320px to 767px */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    /* general */
+
+    body {
+        max-width: 767px;
+    }
+
+    h3 {
+        font-size: 240%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    p {
+        font-size: 130%;
+    }
+
+    .container {
+        padding: 10px;
+        scroll-margin-top: 3vh;
+    }
+
+    /* logo */
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        font-size: 180%;
+        letter-spacing: 2px;
+        padding: 15px 4vw;
+    }
+
+    #logo-slogan {
+        position: relative;
+        right: 2vw;
+        top: -9px;
+        font-size: 12px;
+    }
+
+    /* navigation */
+
+    #menu {
+        height: fit-content;
+    }
+
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #menu a {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* hero image */
+
+    #hero-outer {
+        height: 300px;
+    }
+
+    #hero-image {
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* slogan on hero image */
+
+    #slogan-container {
+        justify-content: flex-end;
+    }
+
+    #slogan-container h2 {
+        font-size: 360%;
+        letter-spacing: 4px;
+    }
+
+    /* what we do & why we do it */
+
+    .what-why-caption {
+        font-size: 160%;
+        text-align: left;
+    }
+
+    .what-text-box {
+        max-width: 100%;
+    }
+
+    #what-center-image {
+        width: 100%;
+    }
+
+    #what-image {
+        background-size: cover;
+    }
+
+    /* about us */
+
+    #about-us-container {
+        width: 100%;
+    }
+
+    #meet-the-team-caption {
+        text-align: center;
+    }
+
+    #about-us-team-container {
+        flex-direction: column;
+    }
+
+    .about-us-team-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .team-images {
+        width: 100%;
+    }
+
+    /* gallery */
+
+    #gallery-photos {
+        column-count: 1;
+    }
+
+    /* courses */
+
+    #course-container {
+        width: 100%;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    #course-times>div {
+        height: 100px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    /* sign up and donate */
+
+    #form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-box {
+        width: 100%;
+    }
+
+    #donation-description {
+        width: 100%;
+        padding: 0;
+    }
+
 }
 
 /* Styles for screens 768px to 1439px */
-@media screen and (min-width: 768px) and (max-width: 1439px) {
-}
+@media screen and (min-width: 768px) and (max-width: 1439px) {}
