@@ -324,6 +324,7 @@ header {
 #about-us-team-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
