@@ -91,20 +91,17 @@ header {
     font-weight: 800;
     letter-spacing: 10px;
     white-space: nowrap;
-    padding: 15px 280px;
+    padding: 15px 20vw;
     border: 2px solid var(--text-heading-color);
 }
 
 #logo-slogan {
     position: relative;
-    right: 282px;
+    right: 20vw;
     top: -15px;
-    width: fit-content;
-    height: fit-content;
     font-size: 20px;
     text-transform: lowercase;
     float: right;
-    padding: 0 8px 0 10px;
     background-color: var(--object-background-color);
 }
 
@@ -677,4 +674,14 @@ footer ul {
 #newsletter>input[type=email],
 #newsletter>input[type=submit] {
     height: 40px;
+}
+
+/* media query */
+
+/* Styles for screens 320px and larger */
+@media screen and (min-width: 320px) {
+}
+
+/* Styles for screens 768px to 1439px */
+@media screen and (min-width: 768px) and (max-width: 1439px) {
 }
