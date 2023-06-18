@@ -722,19 +722,31 @@ footer ul {
 
     /* navigation */
 
-    #menu {
-        height: fit-content;
-    }
-
     #menu ul {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        margin: 0;
+        gap: 0;
     }
 
-    #menu a {
-        display: flex;
-        justify-content: center;
+    #menu i {
+        margin-right: 0;
+    }
+
+    .nav-hidden {
+        display: none;
+    }
+
+    /* nav menu animation */
+
+    #menu a:hover {
+        background-color: none;
+        box-shadow: none;
+        animation: none;
+    }
+
+    #menu a:active {
+        background-color: none;
+        box-shadow: none;
+        animation: none;
     }
 
     /* hero image */
@@ -843,4 +855,172 @@ footer ul {
 }
 
 /* Styles for screens 768px to 1439px */
-@media screen and (min-width: 768px) and (max-width: 1439px) {}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+
+    /* general */
+
+    body {
+        max-width: 1439px;
+    }
+
+    h3 {
+        font-size: 280%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    p {
+        font-size: 130%;
+    }
+
+    .container {
+        padding: 10px;
+        scroll-margin-top: 3vh;
+    }
+
+    /* logo */
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        font-size: 320%;
+        letter-spacing: 2px;
+        padding: 15px 16vw;
+    }
+
+    #logo-slogan {
+        position: relative;
+        right: 16vw;
+        top: -13px;
+        font-size: 18px;
+    }
+
+    /* navigation */
+
+    #menu ul {
+        margin: 0;
+        gap: 0;
+    }
+
+    #menu i {
+        margin-right: 0;
+    }
+
+    .nav-hidden {
+        display: none;
+    }
+
+    /* nav menu animation */
+
+    #menu a:hover {
+        background-color: none;
+        box-shadow: none;
+        animation: none;
+    }
+
+    #menu a:active {
+        background-color: none;
+        box-shadow: none;
+        animation: none;
+    }
+
+    /* hero image */
+
+    #hero-outer {
+        height: 400px;
+    }
+
+    #hero-image {
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* slogan on hero image */
+
+    #slogan-container {
+        justify-content: flex-end;
+    }
+
+    #slogan-container h2 {
+        font-size: 400%;
+        letter-spacing: 4px;
+    }
+
+    /* what we do & why we do it */
+
+    #what-container {
+        flex-direction: column;
+    }
+
+    .what-inner-container {
+        flex-direction: row;
+    }
+
+    .what-why-caption {
+        font-size: 160%;
+        text-align: left;
+        padding-right: 100px;
+    }
+
+    /* about us */
+
+    #about-us-container {
+        width: 100%;
+    }
+
+    #meet-the-team-caption {
+        text-align: center;
+    }
+
+    #about-us-team-container {
+        flex-direction: row;
+    }
+
+    .about-us-team-box {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        min-width: 560px;
+    }
+
+    /* gallery */
+
+    #gallery-photos {
+        column-count: 2;
+    }
+
+    /* courses */
+
+    #course-container {
+        width: 100%;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    #course-times>div {
+        height: 100px;
+    }
+
+    iframe {
+        height: 400px;
+    }
+
+    /* sign up and donate */
+
+    #form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-box {
+        width: 100%;
+    }
+
+    #donation-description {
+        width: 100%;
+        padding: 0;
+    }
+
+}
