@@ -1024,3 +1024,49 @@ footer ul {
     }
 
 }
+
+/* Styles for screens 1440px to 1919px */
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+
+    /* general */
+
+    body {
+        max-width: 1919px;
+    }
+
+
+    /* navigation */
+
+    #menu i {
+        margin-right: 12px;
+    }
+
+    /* what we do & why we do it */
+
+    #what-container {
+        flex-direction: column;
+    }
+
+    .what-inner-container {
+        flex-direction: row;
+    }
+
+    /* about us */
+
+    #about-us-container {
+        width: 100%;
+    }
+
+    #meet-the-team-caption {
+        text-align: center;
+    }
+
+    #about-us-team-container {
+        flex-direction: row;
+    }
+
+    /* gallery */
+
+    #gallery-photos {
+        column-count: 3;
+    }
