@@ -940,9 +940,62 @@ footer ul {
         padding: 0;
     }
 
-}
+    /* thank you pages for signup, donation and newsletter */
 
-/* media query */
+    #thank-you-body {
+        box-shadow: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #thank-you-container {
+        width: 90vw;
+        height: 360px;
+    }
+
+    #thank-you-logo {
+        width: 100%;
+        font-size: 120%;
+        font-weight: 900;
+        letter-spacing: 4px;
+        text-align: center;
+        padding: 8px 4px;
+        box-sizing: border-box;
+    }
+
+    #thank-you-logo-slogan {
+        right: 2vw;
+        top: -8px;
+        font-size: 12px;
+    }
+
+    #thank-you-go-back i {
+        margin-right: 16px;
+    }
+
+    #thank-you-text {
+        font-size: 120%;
+        font-weight: 900;
+    }
+
+    #thank-you-go-back {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #thank-you-go-back a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: 100%;
+    }
+
+}
 
 /* Styles for screens 320px to 767px */
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -1288,6 +1341,26 @@ footer ul {
         padding: 0;
     }
 
+    /* thank you pages for signup, donation and newsletter */
+
+    #thank-you-container {
+        width: 692px;
+    }
+
+    #thank-you-logo {
+        width: 100%;
+        font-size: 360%;
+        font-weight: 900;
+        letter-spacing: 6px;
+        padding: 8px 20px;
+        box-sizing: border-box;
+    }
+
+    #thank-you-logo-slogan {
+        right: 20px;
+        top: -14px;
+    }
+
 }
 
 /* Styles for screens 1440px to 1919px */
@@ -1298,7 +1371,6 @@ footer ul {
     body {
         max-width: 1919px;
     }
-
 
     /* navigation */
 
