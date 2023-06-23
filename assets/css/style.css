@@ -682,6 +682,19 @@ footer ul {
     height: 40px;
 }
 
+#newsletter input:hover {
+    border: 1px solid var(--object-border-color);
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+#newsletter input:focus {
+    border: 2px solid var(--object-border-color);
+    box-shadow: 0 0 3px var(--object-border-color);
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
 /* thank you pages for signup, donation and newsletter */
 
 #thank-you-body {
