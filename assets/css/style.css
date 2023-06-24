@@ -363,7 +363,6 @@ header {
     font-size: 140%;
 }
 
-
 /* about us meet the team image overlay */
 
 .wrapper {
@@ -1000,7 +999,6 @@ footer ul {
         color: var(--text-color);
         font-size: 100%;
     }
-
 }
 
 /* Styles for screens 768px to 1439px */
@@ -1187,7 +1185,6 @@ footer ul {
         right: 20px;
         top: -14px;
     }
-
 }
 
 /* Styles for screens 1440px to 1919px */
