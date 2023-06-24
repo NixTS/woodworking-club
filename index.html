@@ -327,18 +327,17 @@
                         <input type="email" id="e-mail-2" placeholder="Enter your E-Mail Address" required>
                         <label for="donation-object" class="block-label">What do you want to donate?</label>
                         <select name="donation-object" id="donation-object" required>
-                            <option value=" "></option>
+                            <option value="" disabled selected>Please select an option</option>
                             <option value="wood">Wood</option>
                             <option value="tools">Tools</option>
                             <option value="money">Money</option>
                             <option value="other">Other</option>
                         </select>
                         <label for="donation-description">Tell us more about your donation:</label>
-                        <textarea type="text" name="donation-description" id="donation-description" cols="50" rows="10"
+                        <textarea name="donation-description" id="donation-description" cols="50" rows="10"
                             placeholder="Donation description"></textarea>
                         <label for="file-button"><span id="file-upload-text">Upload some Images</span></label>
-                        <input id="file-button" type="file" name="donation-image-upload" id="donation-image-upload"
-                            accept="image/*" multiple>
+                        <input id="file-button" type="file" name="donation-image-upload" accept="image/*" multiple>
                         <input type="submit" name="submit-donation" id="submit-donation" value="Donate">
                     </form>
                 </fieldset>
