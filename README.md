@@ -111,11 +111,108 @@ At its core, this website in its current state, aims to attract new and interest
   + tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README
 
 
-## Testing
-### Strategy
-### Procedure
-### Test by real Users
+## **Testing**
+### **Strategy**
+#### **Summary**
++ Testing is required on Woodworking Clubs responsive website.
++ This project is static and contains no back-end functionality, testing performed will be on the visual effects and layout of the website.
++ Testing is to be done on the most common browsers such as Chrome, Opera, Firefox, Safari and Edge.
++ Testing it to be done on the most common devices such as Samsung, Apple and Huaweii.
++ No elements should overlap another container div. All elements should remain on the screen at all sizes above 320px.
++ All images should not stretch, pixelate oder disappear on different devices, browsers or when changing the sites resolution.
++ All nav link should direct to the correct section.
++ All external links must open in a new tab.
++ Form element should open a new tab with a tank you message and a 'Back to Homepage'-button.
+
+
+### **Procedure**
+
+#### **Validator testing**
++ HTML
+  + No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/)
++ CSS
+  + No errors were teturned when passing through the official [W3C (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+
+#### **Responsiveness**
+1. Open deployed website in Chrome browser
+2. Right clicking an element on the website
+3. Select "Inspect Element" to open Chrome Developer Tools
+
+Test criterias are:  
++ Does each div has enough space between one another?
++ Are all images displayed correctly?
++ Are all texts and headers corretly displayed and readable?
+
+Testing by this method is to evaluate responsiveness on various screen sizes and swiftly address bugs and errors before implementing permanent solutions.
+
+This test was repeated using the different browsers mentioned in the summary section above
+
+#### **Navigation and external Links**
+1. Open deployed website in different browsers mentioned in the summary section above.
+2. Open deployed website on different devices mentioned in the summary section above.
+3. Click on each individual navigation element
+4. Clicking on each external link
+
+Test criterias are:
++ Does each navigation element jumps to the corresponding section?
++ Does each section has enough space above it to not collide with the navigation bar?
++ Does each external link open a new tab?
+
+### **Test by real Users**
+To test the website in real life scenarios, a link to the deployed website has been sent out to Friends and Family with specific instructions on how to test each feature.
+
+The tests have been conducted on the following devices:
++ iPhone 8
++ iPhone 11
++ Samsung Galaxy S14
++ Samsung Galaxy A52
++ Samsung Galaxy S10
++ Samsung Galaxy S20 FE
++ Samsung Galaxy Tab A7
++ Huawei P30
+
+The instruction are as followed:
++ Is each element on screen and displayed correctly?
++ Does the navigation bar stick to the top and work as intended?
++ Is the Hero Image and slogan animation working?
++ Are all images displayed correctly an not stretched or blurred in any way possible?
++ Are the form elements working as intended? After filling out the form, does a new website with a thank you message open?
++ Does each external social media links work?
+
 ### Test Results and Resolutions
+The following errors were found during extensive testing:
+
+1. On an ultrawide monitor (width 2560px and above) the logo border and logo slogan stretch to much to each side and outside the div.
+
+![logo stretching too much on ultrawide monitors](assets/docs/test-logo.jpg)
++ This is due the width element was set to viewport-width
++ This issue has been resolved by setting a fixed with using pixels 
+
+2. On smaller Smartphone, when clicking a navigation element, the navigation bar cuts off the header for each section.
+
+![navigation bar cutting off headers](assets/docs/test-navigation.jpg)
++ This is due to the scroll-margin-top setting
++ This issue has been resovled by increasing the scroll-margin-top for smaller devices
+
+3. Images in the About us section stretch when viewed on any Apple device.
+
+![stretched image on apple device](assets/docs/test-image-size.jpg)
++ This issue is caused by the image height has a set value
++ This issue has been resolved by setting the image height to 'auto'
+
+4. Users complained, that the text paragraphs contain big chunks of blank spaces between words.
+![blank spaces between words](assets/docs/test-text-align.jpg)
++ This is due to the text-align is set to 'justify' which sets texts to have the same space on each side, by stretching blank spaces
++ This issue has been resolved by setting the text-align to 'left'
+
+### **Unresolved Errors, Issues and Bugs**
+The following errors were found during extensive testing, but have not been resolved yet:
+
+1. On Apple products, the legend text in the form elements splips out of the form border
+![legend text slips out of border](assets/docs/test-form-legend.jpg)
++ This is due to the legend texts styling 'float: left'. This styling was used to set the text withing the form elements border, which works as intended on android and windows devices
++ Due to no unlimited access to an apple device, this issue has not been resolved yet, but will be addressed in the near future.
+
 
 ## Deployment
 ### Creation
