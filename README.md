@@ -10,8 +10,8 @@ At its core, this website in its current state, aims to attract new and interest
 
 ![website mock up](assets/docs/techsini.jpg)
 
-## Features
-### Existing Features
+## **Features**
+### **Existing Features**
 + **Navigation Bar**
   + A fully responsive navigation bar that, upon clicking, jumps to the respective section.
   + Remains fixed to the top throughout the whole site to ensure consistent and easy navigation. 
@@ -71,8 +71,15 @@ At its core, this website in its current state, aims to attract new and interest
 
 ![404 page not found site](assets/docs/website-404.jpg)
 
-### Features left to implement
-
+### **Features left to implement**
++ A hamburger navigation button for easier and up-to-date navigation on smaller devices such as smartphone and tablets.
++ Scroll animation for a smooth scroll when clicking a navigation element.
++ Due to its location in the heart of switzerland, a language feature for german and french would be a huge quality of life improvement for the users
++ A color pallet for browsers using dark mode
++ Due to the limitations of html and css in this project, the following features could not be added, but would improve the quality of this site significantly:
+  + A login feature, user profiles and a user database
+  + Automated E-Mail responses to sign-up, donation and newsletter form
+  
 ## Technologies
 
 ## Testing
