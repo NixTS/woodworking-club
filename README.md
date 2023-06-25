@@ -213,11 +213,34 @@ The following errors were found during extensive testing, but have not been reso
 + This is due to the legend texts styling 'float: left'. This styling was used to set the text withing the form elements border, which works as intended on android and windows devices
 + Due to no unlimited access to an apple device, this issue has not been resolved yet, but will be addressed in the near future.
 
+## **Deployment**
+### **Project Creation**
 
-## Deployment
-### Creation
-### Using Github Pages
-### Run Locally
+The project was started by navigating to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking 'Use this template'. Under Repository name I input woodworking-club and checked the Include all branches checkbox. I then navigated to the new [repository](https://github.com/NixTS/woodworking-club). I then clicked the Code drop down and selected HTTPS and copied the link to the clipboard.
+
+Opening [Codeanywhere](https://app.codeanywhere.com/) and clicking "New Workspace", I then pasted the [repository link](https://github.com/NixTS/woodworking-club) into the URL field and clicked "Create". The following commands were used throughout the project:
+
++ git add filename - This command was used to add fils to the staging area before commiting.
++ git commit -m *commit message explaining the updates* - This command was used to to commit changes to the local repository.
++ git push - This command is used to push all commited changes to the GitHub repository.
+
+### **Using Github Pages**
+
+1. Navigate to the GitHub [Repository:](https://github.com/NixTS/woodworking-club)
+2. Click the 'Settings' Tab.
+3. Scroll Down to the Git Hub Pages Heading.
+4. Select 'main Branch' as the source.
+5. Click the Save button.
+6. Click on the link to go to the live deployed page.
+
+### **Run Locally**
+
+1. Navigate to the GitHub [Repository:](https://github.com/NixTS/woodworking-club)
+2. Click the Code drop down menu.
+3. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+4. Open your developement editor of choice and open a terminal window in a directory of your choice.
+5. Use the 'git clone' command in terminal followed by the copied git URL.
+6. A clone of the project will be created locally on your machine.
 
 ## Credits
 ### Content
