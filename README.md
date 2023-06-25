@@ -79,8 +79,37 @@ At its core, this website in its current state, aims to attract new and interest
 + Due to the limitations of html and css in this project, the following features could not be added, but would improve the quality of this site significantly:
   + A login feature, user profiles and a user database
   + Automated E-Mail responses to sign-up, donation and newsletter form
-  
+
 ## Technologies
++ HTML
+  + This project uses HTML as the main language used to complete the structure of the Website.
++ CSS
+  + This project uses custom written CSS to style the Website.
++ [Font Awesome](https://fontawesome.com/)
+  + Font awesome Icons are used for the Social media links contained in the Navigation and Footer section of the website.
++ [Google Fonts](https://fonts.google.com/)
+  + Google fonts are used throughout the project to import the *Roboto Condensed* and *Open Sans* fonts.
++ [Codeanywhere](https://app.codeanywhere.com/)
+  + Codeanywhere is a cloud-based integrated development environment (IDE) that allows developers to collaborate, write, and execute code from anywhere.
++ [GitHub](https://github.com/)
+  + GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
++ [Git](https://git-scm.com/)
+  + Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
++ [iloveimg](https://iloveimg.com/)
+  + iloveIMG is used to reduce the file sizes of images before being deployed to reduce storage and bandwith.
++ [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+  + Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
++ [balsamiq Wireframes](https://balsamiq.com/wireframes/)
+  + This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
++ [Adove Color-wheel](https://color.adobe.com/de/create/color-wheel)
+  + The Adobe Color-Wheel was used to create the color theme.
++ [WebAIM Contrastchecker](https://webaim.org/resources/contrastchecker/)
+  + The WebAIM contrast checker was used to check the color theme to allow  accessibility for visually impaired users.
++ [Favicon](https://favicon.io/)
+  + Favicon.io was used to make the site favicon 
++ [Techsini](http://techsini.com/multi-mockup/index.php)
+  + tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README
+
 
 ## Testing
 ### Strategy
