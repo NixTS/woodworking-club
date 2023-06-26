@@ -242,7 +242,20 @@ Opening [Codeanywhere](https://app.codeanywhere.com/) and clicking "New Workspac
 5. Use the 'git clone' command in terminal followed by the copied git URL.
 6. A clone of the project will be created locally on your machine.
 
-## Credits
-### Content
-### Media
-### Acknowledgements
+## **Credits**
+### **Content**
+
++ The content of this website was created by [Tobias Schmauder aka. NixTS](https://github.com/NixTS).
++ The overlay-hover animation in the Abous us section -> meet the team was created by my girlfriend [Valentyna](https://github.com/kayavalentina)
++ The icons in the navigation and footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### **Media**
+
++ All images found on this website are from [Pexels](https://www.pexels.com/)
+
+### **Acknowledgements**
+I'd like to thank my mentor Daisy McGirr for her guidance throughout my project, and mention her very helpful [Youtube](https://www.youtube.com/@IonaFrisbee) channel.
+
+Thanks to all my testers for their time and effort to provide me with valuable feedback.
+
+I'd also like to give a special mention to my girlfiiend [Valentyna](https://github.com/kayavalentina) who provided me with fedback throughout my project. Also her time and effort to keep errands off my shoulders, so i have more time to finish my project.
