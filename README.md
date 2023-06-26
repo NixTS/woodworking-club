@@ -1,7 +1,9 @@
-# Woodworking Club
+# **Woodworking Club**
+
 Live Website: [Woodworking Club](https://nixts.github.io/woodworking-club/index.html)
 
-## Purpose
+***
+## **Purpose**
 Woodworking Club is a comprehensive site that provides information for individuals interested in woodworking and socializing with like-minded woodworking enthusiasts. Woodworking Club offers a diverse range of services, including beginner-courses, open workshops and exclusive member events, all under the guidance of highly skilled and experianced woodworking professionals.
 
 With a primary focus on fostering a vibrant woodworking community, our platform appeals to seasoned craftsmen, as well as individuals with a keen interest in woodworking but limited prior experience.
@@ -10,6 +12,7 @@ At its core, this website in its current state, aims to attract new and interest
 
 ![website mock up](assets/docs/techsini.jpg)
 
+***
 ## **Features**
 ### **Existing Features**
 + **Navigation Bar**
@@ -80,6 +83,7 @@ At its core, this website in its current state, aims to attract new and interest
   + A login feature, user profiles and a user database
   + Automated E-Mail responses to sign-up, donation and newsletter form
 
+***
 ## Technologies
 + HTML
   + This project uses HTML as the main language used to complete the structure of the Website.
@@ -110,7 +114,7 @@ At its core, this website in its current state, aims to attract new and interest
 + [Techsini](http://techsini.com/multi-mockup/index.php)
   + tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README
 
-
+***
 ## **Testing**
 ### **Strategy**
 #### **Summary**
@@ -124,9 +128,7 @@ At its core, this website in its current state, aims to attract new and interest
 + All external links must open in a new tab.
 + Form element should open a new tab with a tank you message and a 'Back to Homepage'-button.
 
-
 ### **Procedure**
-
 #### **Validator testing**
 + HTML
   + No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/)
@@ -213,9 +215,9 @@ The following errors were found during extensive testing, but have not been reso
 + This is due to the legend texts styling 'float: left'. This styling was used to set the text withing the form elements border, which works as intended on android and windows devices
 + Due to no unlimited access to an apple device, this issue has not been resolved yet, but will be addressed in the near future.
 
+***
 ## **Deployment**
 ### **Project Creation**
-
 The project was started by navigating to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking 'Use this template'. Under Repository name I input woodworking-club and checked the Include all branches checkbox. I then navigated to the new [repository](https://github.com/NixTS/woodworking-club). I then clicked the Code drop down and selected HTTPS and copied the link to the clipboard.
 
 Opening [Codeanywhere](https://app.codeanywhere.com/) and clicking "New Workspace", I then pasted the [repository link](https://github.com/NixTS/woodworking-club) into the URL field and clicked "Create". The following commands were used throughout the project:
@@ -225,7 +227,6 @@ Opening [Codeanywhere](https://app.codeanywhere.com/) and clicking "New Workspac
 + git push - This command is used to push all commited changes to the GitHub repository.
 
 ### **Using Github Pages**
-
 1. Navigate to the GitHub [Repository:](https://github.com/NixTS/woodworking-club)
 2. Click the 'Settings' Tab.
 3. Scroll Down to the Git Hub Pages Heading.
@@ -234,7 +235,6 @@ Opening [Codeanywhere](https://app.codeanywhere.com/) and clicking "New Workspac
 6. Click on the link to go to the live deployed page.
 
 ### **Run Locally**
-
 1. Navigate to the GitHub [Repository:](https://github.com/NixTS/woodworking-club)
 2. Click the Code drop down menu.
 3. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
@@ -242,15 +242,14 @@ Opening [Codeanywhere](https://app.codeanywhere.com/) and clicking "New Workspac
 5. Use the 'git clone' command in terminal followed by the copied git URL.
 6. A clone of the project will be created locally on your machine.
 
+***
 ## **Credits**
 ### **Content**
-
 + The content of this website was created by [Tobias Schmauder aka. NixTS](https://github.com/NixTS).
 + The overlay-hover animation in the Abous us section -> meet the team was created by my girlfriend [Valentyna](https://github.com/kayavalentina)
 + The icons in the navigation and footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### **Media**
-
 + All images found on this website are from [Pexels](https://www.pexels.com/)
 
 ### **Acknowledgements**
