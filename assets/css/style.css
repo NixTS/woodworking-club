@@ -909,6 +909,7 @@ footer ul {
 
     .team-images {
         width: 100%;
+        height: auto;
     }
 
     /* gallery */
@@ -1130,6 +1131,11 @@ footer ul {
         flex-direction: row;
         flex-wrap: nowrap;
         min-width: 560px;
+    }
+
+    .team-images {
+        width: 100%;
+        height: auto;
     }
 
     /* gallery */
