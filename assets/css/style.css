@@ -498,6 +498,7 @@ iframe {
 
 .fieldset-outer>legend {
     float: left;
+    clear: left;
     margin-bottom: 40px;
     font-size: 180%;
     font-weight: 700;

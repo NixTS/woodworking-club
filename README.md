@@ -191,20 +191,18 @@ The following errors were found during extensive testing:
 + This issue has been resolved by setting a fixed with using pixels 
 
 2. On smaller Smartphone, when clicking a navigation element, the navigation bar cuts off the header for each section.
-
 ![navigation bar cutting off headers](assets/docs/test-navigation.jpg)
 + This is due to the scroll-margin-top setting
 + This issue has been resovled by increasing the scroll-margin-top for smaller devices
 
 3. Images in the About us section stretch when viewed on any Apple device.
-
 ![stretched image on apple device](assets/docs/test-image-size.jpg)
-+ This issue is caused by the image height has a set value
++ This issue arises when the image height is not defined in the media query
 + This issue has been resolved by setting the image height to 'auto'
 
 4. Users complained, that the text paragraphs contain big chunks of blank spaces between words.
 ![blank spaces between words](assets/docs/test-text-align.jpg)
-+ This is due to the text-align is set to 'justify' which sets texts to have the same space on each side, by stretching blank spaces
++ This issue occurs because the 'text-align' property is set to 'justify', which stretches blank spaces to make the text have equal spacing on both sides
 + This issue has been resolved by setting the text-align to 'left'
 
 ### **Unresolved Errors, Issues and Bugs**
