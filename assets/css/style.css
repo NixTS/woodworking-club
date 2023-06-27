@@ -496,15 +496,13 @@ iframe {
     box-shadow: 0 0 3px var(--object-border-color);
 }
 
-.fieldset-outer>legend {
-    float: left;
-    clear: left;
+.fieldset-outer legend {
     margin-bottom: 40px;
     font-size: 180%;
     font-weight: 700;
 }
 
-.fieldset-outer>legend>span {
+.legend-emphasis {
     font-size: 120%;
     text-transform: uppercase;
 }
