@@ -191,16 +191,19 @@ The following errors were found during extensive testing:
 + This issue has been resolved by setting a fixed with using pixels 
 
 2. On smaller Smartphone, when clicking a navigation element, the navigation bar cuts off the header for each section.
+
 ![navigation bar cutting off headers](assets/docs/test-navigation.jpg)
 + This is due to the scroll-margin-top setting
 + This issue has been resovled by increasing the scroll-margin-top for smaller devices
 
 3. Images in the About us section stretch when viewed on any Apple device.
+   
 ![stretched image on apple device](assets/docs/test-image-size.jpg)
 + This issue arises when the image height is not defined in the media query
 + This issue has been resolved by setting the image height to 'auto'
 
 4. Users complained, that the text paragraphs contain big chunks of blank spaces between words.
+
 ![blank spaces between words](assets/docs/test-text-align.jpg)
 + This issue occurs because the 'text-align' property is set to 'justify', which stretches blank spaces to make the text have equal spacing on both sides
 + This issue has been resolved by setting the text-align to 'left'
@@ -208,10 +211,11 @@ The following errors were found during extensive testing:
 ### **Unresolved Errors, Issues and Bugs**
 The following errors were found during extensive testing, but have not been resolved yet:
 
-1. On Apple products, the legend text in the form elements splips out of the form border
+1. On Apple products, the legend text in the form elements slips out of the form border
+
 ![legend text slips out of border](assets/docs/test-form-legend.jpg)
 + This is due to the legend texts styling 'float: left'. This styling was used to set the text withing the form elements border, which works as intended on android and windows devices
-+ Due to no unlimited access to an apple device, this issue has not been resolved yet, but will be addressed in the near future.
++ This issue is resolved by wrapping the 'legend' in a 'span'
 
 ***
 ## **Deployment**
