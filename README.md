@@ -4,7 +4,7 @@ Live Website: [Woodworking Club](https://nixts.github.io/woodworking-club/index.
 
 ***
 ## **Purpose**
-Woodworking Club is a comprehensive site that provides information for individuals interested in woodworking and socializing with like-minded woodworking enthusiasts. Woodworking Club offers a diverse range of services, including beginner-courses, open workshops and exclusive member events, all under the guidance of highly skilled and experianced woodworking professionals.
+Woodworking Club is a comprehensive website that provides information for individuals interested in woodworking and socializing with like-minded woodworking enthusiasts. Woodworking Club offers a diverse range of services, including beginner-courses, open workshops and exclusive member events, all under the guidance of highly skilled and experianced woodworking professionals.
 
 With a primary focus on fostering a vibrant woodworking community, our platform appeals to seasoned craftsmen, as well as individuals with a keen interest in woodworking but limited prior experience.
 
@@ -16,54 +16,55 @@ At its core, this website in its current state, aims to attract new and interest
 ## **User Experience Design**
 ### **User stories**
 
-#### First Time Visitor Goals
-+ As a First time user, I want to easily understand the main purpose of the site and learn more about the organisation.
-+ As a First time user, I want to be able to easily navigate throughout the site to find content.
-+ As a First time user, I want to view the website and content clearly on my mobile device.+ As a First Time user, +I want to easily understand the main purpose of the site and learn more about the club.
-+ As a First time user, I want to find ways to follow the Woodworking Club on different social media platforms.
+#### **First Time Visitor Goals**
++ As a first time user, I want to easily understand the main purpose of the site and learn more about the Woodworking Club.
++ As a first time user, I want to be able to easily navigate throughout the website to find content.
++ As a first time user, I want to view the website and content clearly on my mobile device.
++ As a first time user, I want to find ways to follow the Woodworking Club on different social media platforms.
 + As a first time user, I want to easily sign up for courses or donate to the organisation.
 
-#### Returning Visitor Goals
-+ As a Returning user, I want to sign up for other courses.
+#### **Returning Visitor Goals**
++ As a returning user, I want to sign up for other courses.
 + As a returning user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-#### Frequent Visitor Goals
-+ As a Frequent user, I want to check to see if there are any new upcoming events or courses.
+#### **Frequent Visitor Goals**
++ As a frequent user, I want to check to see if there are any new upcoming events or courses.
 + As a frequent user, I want to donate and support the woodworking club again.
-+ As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities.
++ As a frequent user, I want to check to see if there are any new photos and media from the clubs activities.
 
-### Structure
-Implementing a sticky top navigation bar with appropriate icons for each section will enhance seamless navigation across the entire website.
-The Nav Menu will be collapsable on a Mobile device to only icons to make use of space on smaller devices.
+### **Structure**
+The website will contain a 'About us' and a 'What we do' section with a description of the club and the current team members.
 The purpose of this is to fulfill user story:
-> As a First Time user, I want to be able to easily navigate throughout the site to find content.
+> As a first time user, I want to easily understand the main purpose of the website and learn more about the Woodworking Club.
 
-Custom CSS will be used to make the Website responsive by the use of media queries.
+Implementing a sticky top navigation bar with appropriate icons for each section will enhance seamless navigation across the entire website.
+The Nav Menu will be collapsed on a Mobile device to only icons to make use of space on smaller devices.
+The purpose of this is to fulfill user story:
+> As a first Time user, I want to be able to easily navigate throughout the website to find content.
+
+Custom CSS will be used to make the website responsive by the use of media queries.
 
 The website will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing,
 images are displayed properly and that the content is not shrunk side by side, so small that it is unreadable.
 The purpose of this is to fulfill user story:
-> As a First Time user, I want to view the website and content clearly on my mobile device.
-
-The website will contain a 'About us'and a 'What we do' section with a description of the club about the team members.
-The purpose of this is to fulfill user story:
-> As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.
+> As a first Time user, I want to view the website and content clearly on my mobile device.
 
 The website will contain a Footer Element with Social Media Icons and a newsletter subscription form. 
 The aim of the Footer elements are to fulfill user stories:
-> As a First time user, I want to find ways to follow the Woodworking Club on different social media platforms.<br>
+> As a first time user, I want to find ways to follow the Woodworking Club on different social media platforms.<br>
 > As a returning user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.<br>
-> As a Frequent user, I want to check to see if there are any new upcoming events or courses.
+> As a frequent user, I want to check to see if there are any new upcoming events or courses.
 
 The website will contain a sign up and donation form for users to sign up to course or support the club.
 The purpose of this is to fulfull user stories:
-> As a Returning user, I want to sign up for other courses.<br>
+> As a first time user, I want to easily sign up for courses or donate to the organisation.<br>
+> As a returning user, I want to sign up for other courses.<br>
 > As a frequent user, I want to donate and support the woodworking club again.
 
 The Gallery section will contain a Gallery with 13 photographs in each from various activities the club offers.
 The purpose of these galleries are to fulfill user story:
-> As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities.<br>
-> As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+> As a frequent user, I want to check to see if there are any new photos and media from the clubs activities.<br>
+> As a frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 ### **Design**
 #### **Colour Scheme**
@@ -72,20 +73,19 @@ The three main colours used are:
 + #3F372C - ![brown](assets/docs/color-brown.jpg) Brown, as text and border color
 + #3F262C - ![dark brown](assets/docs/color-darkbrown.jpg) Dark brown, as header color
 
-The website colors are tested on the [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/) to allow visually impaired user to use the website without any issues.
+The website main colors are tested on the [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/) to allow visually impaired user to use the website without any issues.
 ![WebAim Contrast Checker test](assets/docs/color-contrast-checker.jpg)
   
 #### **Typography**
-The headers on all pages throughout the Website are using the **Roboto Condenses** font while the main text is using the **Open Sans** font. 
-
+The headers throughout the website are using the **Roboto Condenses** font while the main text is using the **Open Sans** font. 
 
 #### **Wireframes**
 Landing page<br>
 ![Landing page and hero image Wireframe](assets/docs/wireframe-home.jpg)<br>
 What we do<br>
 ![What we do Wireframe](assets/docs/wireframe-what-we-do.jpg)<br>
-About us<br>
-![About us Wireframe](assets/docs/wirefram-about-us.jpg)<br>
+About us and meet the Team<br>
+![About us and meet the team Wireframe](assets/docs/wirefram-about-us.jpg)<br>
 Gallery Page<br>
 ![Gallery Wireframe](assets/docs/wireframe-gallery.jpg)<br>
 Courses Page<br>
@@ -93,77 +93,77 @@ Courses Page<br>
 Sign up and Footer<br>
 ![Courses Wireframe](assets/docs/wireframe-sign-up-footer.jpg))<br>
 
-#### Differences to Design
+#### **Differences to Design**
 
 The original design, has been changed slightly throughout the process of creating the website.
 
-### Limitations
+### **Limitations**
 
 Due to no JavaScript functionality, the Sign up, Donation and newsletter Form as shown, will not store data or send email requests.
 
 ***
 ## **Features**
 ### **Existing Features**
-+ **Navigation Bar**
++ Navigation Bar
   + A fully responsive navigation bar that, upon clicking, jumps to the respective section.
-  + Remains fixed to the top throughout the whole site to ensure consistent and easy navigation. 
+  + Remains fixed to the top throughout the whole website to ensure consistent and easy navigation. 
 
-+ **The landing page image with slogan**
-  + Animated Hero Image with a zoom out effect to catch the users attention upon opening the site.
++ The landing page image with slogan
+  + Animated Hero Image with a zoom out effect to catch the users attention upon opening the website.
   + The clubs slogan blending in after the hero images animation ends to show the core principles.
 
 ![logo, navigation bar and hero image with slogan](assets/docs/website-home.jpg)
 
-+ **What we do & Why we do it**
++ What we do & Why we do it
   + Description of what the Woodworking Club is all about, within colored text boxes to make the texts clearly separated and ease readability. 
   +  Upon reading through this section, the user will see the benefits of joining the woodworking club or making a donation.
 
 ![what we do & why we do it section with text boxes and centered image](assets/docs/website-what-we-do.jpg)
 
-+ **About us**
++ About us
   + Showcasing the team members and their skills as well as personal goals.
   + Hovering over the images makes a personal quote of each team member blend in from the top.
   + The user will experiance a positive feeling upon seeing a very skilled and passionate team that provides guidance and expertise.
 
 ![about us section with meet the team sub-section](assets/docs/website-about-us.jpg)
 
-+ **Gallery**
++ Gallery
   + A fully responsive masonry style gallery showcasing the workshop, members working on projects and the tools used.
   + These supporting images show how active and healty the community is.
   + The user will be able to easily identify the types of work and events the club puts together.
 
 ![masonry style image gallery](assets/docs/website-gallery.jpg)
 
-+ **Courses**
++ Courses
   + This section will allow the user to see exactly when and which course will happen.
   + An interactive Google map makes the location easy to find.
 
 ![courses, dates and the location as a google map](assets/docs/website-courses.jpg)
 
-+ **Sign up and Donate**
++ Sign up and Donate
   + This section will allow the user to get signed up for the different courses. The user will be able to select which course they are interested in.
   + The second section will allow the user to donate either wood/materials, money, tools or other thing to the club. A description field and image upload will make it easy to describe the specific donation.
   + The user will have to insert a full name, e-mail address and select and option, respectivly add a description or upload images.
 
-+ **Footer**
++ Footer
   + The footer section includes a Back to the top button to support navigation.
   + The footer is valuable to the user as it encourages them to keep connected via different social media channels.
   + A newsletter subscription box will allow the user to reaceive a monthly newsletter.
 
 ![sign up and donation form](assets/docs/website-sign-up-footer.jpg)
 
-+ **Favicon**
++ Favicon
   + A favicon has been added to all pages to enhance recognition in the browser.
 
 ![favicon](assets/docs/website-favicon.jpg)
 
-+ **Thank you messages**
++ Thank you messages
   + Upon clicking each submit button, the user will be redirected to a new site displaying a thank you message including a 'back to the homepage'-button
 
 ![thank you message](assets/docs/website-thank-you.jpg)
 
-+ **404 Page**
-  + In case of clicking on an incorrect or missing link, or typing an invalid path, the user will be redirected to a 404 - Page Not Found site, which includes 'Back to Homepage'-button for easy navigation.
++ 404 Page
+  + In case of clicking on an incorrect or missing link, or typing in an invalid URL, the user will be redirected to a 404 - 'Page Not Found' site, which includes a 'Back to Homepage'-button for easy navigation.
 
 ![404 page not found site](assets/docs/website-404.jpg)
 
@@ -172,16 +172,16 @@ Due to no JavaScript functionality, the Sign up, Donation and newsletter Form as
 + Scroll animation for a smooth scroll when clicking a navigation element.
 + Due to its location in the heart of switzerland, a language feature for german and french would be a huge quality of life improvement for the users
 + A color pallet for browsers using dark mode
-+ Due to the limitations of html and css in this project, the following features could not be added, but would improve the quality of this site significantly:
++ Due to the limitations of html and css in this project, the following features could not be added, but would improve the quality of this website significantly:
   + A login feature, user profiles and a user database
   + Automated E-Mail responses to sign-up, donation and newsletter form
 
 ***
 ## Technologies
 + HTML
-  + This project uses HTML as the main language used to complete the structure of the Website.
+  + This project uses HTML as the main language used to complete the structure of the website.
 + CSS
-  + This project uses custom written CSS to style the Website.
+  + This project uses custom written CSS to style the website.
 + [Font Awesome](https://fontawesome.com/)
   + Font awesome Icons are used for the Social media links contained in the Navigation and Footer section of the website.
 + [Google Fonts](https://fonts.google.com/)
@@ -189,13 +189,13 @@ Due to no JavaScript functionality, the Sign up, Donation and newsletter Form as
 + [Codeanywhere](https://app.codeanywhere.com/)
   + Codeanywhere is a cloud-based integrated development environment (IDE) that allows developers to collaborate, write, and execute code from anywhere.
 + [GitHub](https://github.com/)
-  + GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+  + GitHub is the hosting website used to store the source code for the website and [Git Pages](https://pages.github.com/) is used for the deployment of the live website.
 + [Git](https://git-scm.com/)
   + Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
-+ [iloveimg](https://iloveimg.com/)
-  + iloveIMG is used to reduce the file sizes of images before being deployed to reduce storage and bandwith.
++ [iloveIMG](https://iloveimg.com/)
+  + iloveIMG is used to compress and resize the images before being deployed to the website.
 + [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
-  + Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+  + Google chromes built in developer tools are used to inspect page elements and help debug issues with the website layout and test different CSS styles.
 + [balsamiq Wireframes](https://balsamiq.com/wireframes/)
   + This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
 + [Adove Color-wheel](https://color.adobe.com/de/create/color-wheel)
@@ -203,9 +203,9 @@ Due to no JavaScript functionality, the Sign up, Donation and newsletter Form as
 + [WebAIM Contrastchecker](https://webaim.org/resources/contrastchecker/)
   + The WebAIM contrast checker was used to check the color theme to allow  accessibility for visually impaired users.
 + [Favicon](https://favicon.io/)
-  + Favicon.io was used to make the site favicon 
+  + Favicon.io was used to make the websites favicon 
 + [Techsini](http://techsini.com/multi-mockup/index.php)
-  + tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README
+  + techsini.com Multi Device website Mockup Generator was used to create the Mock up image in this README
 
 ***
 ## **Testing**
@@ -216,7 +216,7 @@ Due to no JavaScript functionality, the Sign up, Donation and newsletter Form as
 + Testing is to be done on the most common browsers such as Chrome, Opera, Firefox, Safari and Edge.
 + Testing it to be done on the most common devices such as Samsung, Apple and Huaweii.
 + No elements should overlap another container div. All elements should remain on the screen at all sizes above 320px.
-+ All images should not stretch, pixelate oder disappear on different devices, browsers or when changing the sites resolution.
++ All images should not stretch, pixelate oder disappear on different devices, browsers or when changing the websites resolution.
 + All nav link should direct to the correct section.
 + All external links must open in a new tab.
 + Form element should open a new tab with a tank you message and a 'Back to Homepage'-button.
@@ -238,9 +238,6 @@ Due to no JavaScript functionality, the Sign up, Donation and newsletter Form as
     + style.css
 
     ![w3c css (jigsaw) validator testing result](assets/docs/validator-css-files.jpg)
-
-
-
 
 #### **Responsiveness**
 1. Open deployed website in Chrome browser
@@ -288,7 +285,7 @@ The instruction are as followed:
 + Are the form elements working as intended? After filling out the form, does a new website with a thank you message open?
 + Does each external social media links work?
 
-### Test Results and Resolutions
+### **Test Results and Resolutions**
 The following errors were found during extensive testing:
 
 1. On an ultrawide monitor (width 2560px and above) the logo border and logo slogan stretch to much to each side and outside the div.
@@ -324,7 +321,7 @@ The following errors were found during extensive testing:
 
 ### **Unresolved Errors, Issues and Bugs**
 The following errors were found during extensive testing, but have not been resolved yet:
-+ There are no, to the creator of this site, known errors, issues or bugs
++ There are no, to the creator of this website, known errors, issues or bugs
   
 ***
 ## **Deployment**
