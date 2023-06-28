@@ -13,6 +13,95 @@ At its core, this website in its current state, aims to attract new and interest
 ![website mock up](assets/docs/techsini.jpg)
 
 ***
+## **User Experience Design**
+### **User stories**
+
+#### First Time Visitor Goals
++ As a First time user, I want to easily understand the main purpose of the site and learn more about the organisation.
++ As a First time user, I want to be able to easily navigate throughout the site to find content.
++ As a First time user, I want to view the website and content clearly on my mobile device.+ As a First Time user, +I want to easily understand the main purpose of the site and learn more about the club.
++ As a First time user, I want to find ways to follow the Woodworking Club on different social media platforms.
++ As a first time user, I want to easily sign up for courses or donate to the organisation.
+
+#### Returning Visitor Goals
++ As a Returning user, I want to sign up for other courses.
++ As a returning user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+#### Frequent Visitor Goals
++ As a Frequent user, I want to check to see if there are any new upcoming events or courses.
++ As a frequent user, I want to donate and support the woodworking club again.
++ As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities.
+
+### Structure
+Implementing a sticky top navigation bar with appropriate icons for each section will enhance seamless navigation across the entire website.
+The Nav Menu will be collapsable on a Mobile device to only icons to make use of space on smaller devices.
+The purpose of this is to fulfill user story:
+> As a First Time user, I want to be able to easily navigate throughout the site to find content.
+
+Custom CSS will be used to make the Website responsive by the use of media queries.
+
+The website will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing,
+images are displayed properly and that the content is not shrunk side by side, so small that it is unreadable.
+The purpose of this is to fulfill user story:
+> As a First Time user, I want to view the website and content clearly on my mobile device.
+
+The website will contain a 'About us'and a 'What we do' section with a description of the club about the team members.
+The purpose of this is to fulfill user story:
+> As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.
+
+The website will contain a Footer Element with Social Media Icons and a newsletter subscription form. 
+The aim of the Footer elements are to fulfill user stories:
+> As a First time user, I want to find ways to follow the Woodworking Club on different social media platforms.<br>
+> As a returning user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.<br>
+> As a Frequent user, I want to check to see if there are any new upcoming events or courses.
+
+The website will contain a sign up and donation form for users to sign up to course or support the club.
+The purpose of this is to fulfull user stories:
+> As a Returning user, I want to sign up for other courses.<br>
+> As a frequent user, I want to donate and support the woodworking club again.
+
+The Gallery section will contain a Gallery with 13 photographs in each from various activities the club offers.
+The purpose of these galleries are to fulfill user story:
+> As a Frequent user, I want to check to see if there are any new photos and media from the clubs activities.<br>
+> As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+### **Design**
+#### **Colour Scheme**
+The three main colours used are:
++ #FFE7D2 - ![light brown](assets/docs/color-lightbrown.jpg) Lightbrown, as background color for textboxes and contrast for text and content elements
++ #3F372C - ![brown](assets/docs/color-brown.jpg) Brown, as text and border color
++ #3F262C - ![dark brown](assets/docs/color-darkbrown.jpg) Dark brown, as header color
+
+The website colors are tested on the [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/) to allow visually impaired user to use the website without any issues.
+![WebAim Contrast Checker test](assets/docs/color-contrast-checker.jpg)
+  
+#### **Typography**
+The headers on all pages throughout the Website are using the **Roboto Condenses** font while the main text is using the **Open Sans** font. 
+
+
+#### **Wireframes**
+Landing page<br>
+![Landing page and hero image Wireframe](assets/docs/wireframe-home.jpg)<br>
+What we do<br>
+![What we do Wireframe](assets/docs/wireframe-what-we-do.jpg)<br>
+About us<br>
+![About us Wireframe](assets/docs/wirefram-about-us.jpg)<br>
+Gallery Page<br>
+![Gallery Wireframe](assets/docs/wireframe-gallery.jpg)<br>
+Courses Page<br>
+![Courses Wireframe](assets/docs/wireframe-courses.jpg)<br>
+Sign up and Footer<br>
+![Courses Wireframe](assets/docs/wireframe-sign-up-footer.jpg))<br>
+
+#### Differences to Design
+
+The original design, has been changed slightly throughout the process of creating the website.
+
+### Limitations
+
+Due to no JavaScript functionality, the Sign up, Donation and newsletter Form as shown, will not store data or send email requests.
+
+***
 ## **Features**
 ### **Existing Features**
 + **Navigation Bar**
