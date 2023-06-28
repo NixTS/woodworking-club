@@ -204,37 +204,39 @@ The following errors were found during extensive testing:
 
 1. On an ultrawide monitor (width 2560px and above) the logo border and logo slogan stretch to much to each side and outside the div.
 
-![logo stretching too much on ultrawide monitors](assets/docs/test-logo.jpg)
+    ![logo stretching too much on ultrawide monitors](assets/docs/test-logo.jpg)
 + This is due the width element was set to viewport-width
 + This issue has been resolved by setting a fixed with using pixels 
 
 2. On smaller Smartphone, when clicking a navigation element, the navigation bar cuts off the header for each section.
 
-![navigation bar cutting off headers](assets/docs/test-navigation.jpg)
+    ![navigation bar cutting off headers](assets/docs/test-navigation.jpg)
 + This is due to the scroll-margin-top setting
 + This issue has been resovled by increasing the scroll-margin-top for smaller devices
 
 3. Images in the About us section stretch when viewed on any Apple device.
    
-![stretched image on apple device](assets/docs/test-image-size.jpg)
+    ![stretched image on apple device](assets/docs/test-image-size.jpg)
 + This issue arises when the image height is not defined in the media query
 + This issue has been resolved by setting the image height to 'auto'
 
 4. Users complained, that the text paragraphs contain big chunks of blank spaces between words.
 
-![blank spaces between words](assets/docs/test-text-align.jpg)
+    ![blank spaces between words](assets/docs/test-text-align.jpg)
 + This issue occurs because the 'text-align' property is set to 'justify', which stretches blank spaces to make the text have equal spacing on both sides
 + This issue has been resolved by setting the text-align to 'left'
 
+5. On Apple devices, the legend text in the form elements slips out of the fieldset border
+
+    ![legend text slips out of border](assets/docs/test-form-legend.jpg)
++ This is due to the legend texts styling 'float: left'. This styling was used to set the text withing the form elements border, which works as intended on android and windows devices
++ This issue is resolved by setting the fieldset to position relative and the legend to position absolute
+
+
 ### **Unresolved Errors, Issues and Bugs**
 The following errors were found during extensive testing, but have not been resolved yet:
-
-1. On Apple products, the legend text in the form elements slips out of the form border
-
-![legend text slips out of border](assets/docs/test-form-legend.jpg)
-+ This is due to the legend texts styling 'float: left'. This styling was used to set the text withing the form elements border, which works as intended on android and windows devices
-+ This issue is resolved by wrapping the 'legend' in a 'span'
-
++ There are no, to the creator of this site, known errors, issues or bugs
+  
 ***
 ## **Deployment**
 ### **Project Creation**
@@ -267,6 +269,7 @@ Opening [Codeanywhere](https://app.codeanywhere.com/) and clicking "New Workspac
 ### **Content**
 + The content of this website was created by [Tobias Schmauder aka. NixTS](https://github.com/NixTS).
 + The overlay-hover animation in the Abous us section -> meet the team was created by my girlfriend [Valentyna](https://github.com/kayavalentina)
++ The resolution to the 'legend slips into fieldset border on apple devices' issue has been resolved by using [Mike Harrisons](https://stackoverflow.com/users/2485833/mike-harrison) awnser to a similar question on [Stackoverflow.com](https://stackoverflow.com/questions/39105300/css-can-you-positiion-a-legend-inside-a-fieldset-on-the-left-border-centered)
 + The icons in the navigation and footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### **Media**
