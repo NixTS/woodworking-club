@@ -63,6 +63,11 @@ At its core, this website in its current state, aims to attract new and interest
 
 ![sign up and donation form](assets/docs/website-sign-up-footer.jpg)
 
++ **Favicon**
+  + A favicon has been added to all pages to enhance recognition in the browser.
+
+![favicon](assets/docs/website-favicon.jpg)
+
 + **Thank you messages**
   + Upon clicking each submit button, the user will be redirected to a new site displaying a thank you message including a 'back to the homepage'-button
 
@@ -70,7 +75,6 @@ At its core, this website in its current state, aims to attract new and interest
 
 + **404 Page**
   + In case of clicking on an incorrect or missing link, or typing an invalid path, the user will be redirected to a 404 - Page Not Found site, which includes 'Back to Homepage'-button for easy navigation.
-  
 
 ![404 page not found site](assets/docs/website-404.jpg)
 
@@ -132,8 +136,22 @@ At its core, this website in its current state, aims to attract new and interest
 #### **Validator testing**
 + HTML
   + No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/)
+    + index.html
+    + signup.html
+    + donation.html
+    + newsletter.html
+    + 404.html
+  
+    ![w3c html validator testing result](assets/docs/validator-html-files.jpg)
+
 + CSS
   + No errors were teturned when passing through the official [W3C (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+    + style.css
+
+    ![w3c css (jigsaw) validator testing result](assets/docs/validator-css-files.jpg)
+
+
+
 
 #### **Responsiveness**
 1. Open deployed website in Chrome browser
