@@ -487,9 +487,12 @@ iframe {
 }
 
 .fieldset-outer {
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 30px 2vw;
+    padding: 0 2vw;
+    padding-top: 120px;
+    padding-bottom: 2vw;
     background-color: var(--object-background-color);
     border: 1px solid var(--object-border-color);
     border-radius: 20px;
@@ -497,6 +500,11 @@ iframe {
 }
 
 .fieldset-outer legend {
+    position: absolute;
+    display: block;
+    top: 60px;
+    left: 20px;
+    transform: translateY(-50%);
     margin-bottom: 40px;
     font-size: 180%;
     font-weight: 700;
