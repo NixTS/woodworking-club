@@ -10,7 +10,7 @@ With a primary focus on fostering a vibrant woodworking community, our platform 
 
 At its core, this website, in its current state, aims to attract new and interested members while also seeking potential donations and partnerships to keep Woodworking Club alive and thriving.
 
-![website Mock-Up](assets/docs/techsini.jpg)
+![website Mock-Up](media/readme-images/techsini.jpg)
 
 ***
 ## **User Experience Design**
@@ -69,29 +69,29 @@ The purpose of these galleries are to fulfill user story:
 ### **Design**
 #### **Color Scheme**
 The three main colors used are:
-+ #FFE7D2 - ![light brown](assets/docs/color-lightbrown.jpg) Light Brown, as background color for text boxes and contrast for text and content elements
-+ #3F372C - ![brown](assets/docs/color-brown.jpg) Brown, as text and border color
-+ #3F262C - ![dark brown](assets/docs/color-darkbrown.jpg) Dark Brown, as header color
++ #FFE7D2 - ![light brown](media/readme-images/color-lightbrown.jpg) Light Brown, as background color for text boxes and contrast for text and content elements
++ #3F372C - ![brown](media/readme-images/color-brown.jpg) Brown, as text and border color
++ #3F262C - ![dark brown](media/readme-images/color-darkbrown.jpg) Dark Brown, as header color
 
 The website main colors are tested on the [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/) to allow visually impaired user to view the website without any issues.
-![WebAim Contrast Checker test](assets/docs/color-contrast-checker.jpg)
+![WebAim Contrast Checker test](media/readme-images/color-contrast-checker.jpg)
   
 #### **Typography**
 The headers throughout the website are using the **Roboto Condenses** font while the main text is using the **Open Sans** font. 
 
 #### **Wireframes**
 Landing page<br>
-![Landing page and hero image Wireframe](assets/docs/wireframe-home.jpg)<br>
+![Landing page and hero image Wireframe](media/readme-images/wireframe-home.jpg)<br>
 What we do<br>
-![What we do Wireframe](assets/docs/wireframe-what-we-do.jpg)<br>
+![What we do Wireframe](media/readme-images/wireframe-what-we-do.jpg)<br>
 About us and meet the Team<br>
-![About us and meet the team Wireframe](assets/docs/wirefram-about-us.jpg)<br>
+![About us and meet the team Wireframe](media/readme-images/wirefram-about-us.jpg)<br>
 Gallery Page<br>
-![Gallery Wireframe](assets/docs/wireframe-gallery.jpg)<br>
+![Gallery Wireframe](media/readme-images/wireframe-gallery.jpg)<br>
 Courses Page<br>
-![Courses Wireframe](assets/docs/wireframe-courses.jpg)<br>
+![Courses Wireframe](media/readme-images/wireframe-courses.jpg)<br>
 Sign-up and Footer<br>
-![Courses Wireframe](assets/docs/wireframe-sign-up-footer.jpg)<br>
+![Courses Wireframe](media/readme-images/wireframe-sign-up-footer.jpg)<br>
 
 #### **Differences to Design**
 
@@ -112,33 +112,33 @@ Due to no JavaScript functionality, the sign-up, Donation and newsletter Form as
   + Animated Hero Image with a zoom out effect to catch the users attention upon opening the website.
   + The clubs slogan blending in after the hero images animation ends to show the core principles.
 
-![logo, navigation bar and hero image with slogan](assets/docs/website-home.jpg)
+![logo, navigation bar and hero image with slogan](media/readme-images/website-home.jpg)
 
 + What we do & Why we do it
   + Description of what the Woodworking Club is all about, within colored text boxes to make the texts clearly separated and ease readability. 
   + Upon reading through this section, the user will see the benefits of joining the woodworking club or making a donation.
 
-![what we do & why we do it section with text boxes and centered image](assets/docs/website-what-we-do.jpg)
+![what we do & why we do it section with text boxes and centered image](media/readme-images/website-what-we-do.jpg)
 
 + About us
   + Showcasing the team members and their skills as well as personal goals.
   + Hovering over the images makes a personal quote of each team member blend in from the top.
   + The user will experience a positive feeling upon seeing a very skilled and passionate team that provides guidance and expertise.
 
-![about us section with meet the team sub-section](assets/docs/website-about-us.jpg)
+![about us section with meet the team sub-section](media/readme-images/website-about-us.jpg)
 
 + Gallery
   + A fully responsive masonry style gallery showcasing the workshop, members working on projects and the tools used.
   + These supporting images show how active and healthy the community is.
   + The user will be able to easily identify the types of work and events the club puts together.
 
-![masonry style image gallery](assets/docs/website-gallery.jpg)
+![masonry style image gallery](media/readme-images/website-gallery.jpg)
 
 + Courses
   + This section will allow the user to see exactly when and which course will happen.
   + An interactive Google map makes the location easy to find.
 
-![courses, dates and the location as a Google map](assets/docs/website-courses.jpg)
+![courses, dates and the location as a Google map](media/readme-images/website-courses.jpg)
 
 + Sign-up and Donate
   + This section will allow the user to get signed up for the different courses. The user will be able to select which course they are interested in.
@@ -150,22 +150,22 @@ Due to no JavaScript functionality, the sign-up, Donation and newsletter Form as
   + The footer is valuable to the user as it encourages them to keep connected via different social media channels.
   + A newsletter subscription box will allow the user to receive a monthly newsletter.
 
-![sign-up and donation form](assets/docs/website-sign-up-footer.jpg)
+![sign-up and donation form](media/readme-images/website-sign-up-footer.jpg)
 
 + Favicon
   + A favicon has been added to all pages to enhance recognition in the browser.
 
-![favicon](assets/docs/website-favicon.jpg)
+![favicon](media/readme-images/website-favicon.jpg)
 
 + Thank you messages
   + Upon clicking each submit button, the user will be redirected to a new site displaying a 'thank you' message including a 'back to the homepage'-button
 
-![thank you message](assets/docs/website-thank-you.jpg)
+![thank you message](media/readme-images/website-thank-you.jpg)
 
 + 404 Page
   + In case of clicking on an incorrect or missing link, or typing in an invalid URL, the user will be redirected to a 404 - 'Page Not Found' site, which includes a 'Back to Homepage'-button for easy navigation.
 
-![404 page not found site](assets/docs/website-404.jpg)
+![404 page not found site](media/readme-images/website-404.jpg)
 
 ### **Features left to implement**
 + A hamburger navigation button for easier and up-to-date navigation on smaller devices such as smartphone and tablets.
@@ -231,13 +231,13 @@ Due to no JavaScript functionality, the sign-up, Donation and newsletter Form as
     + newsletter.html
     + 404.html
   
-    ![w3c HTML validator testing result](assets/docs/validator-html-files.jpg)
+    ![w3c HTML validator testing result](media/readme-images/validator-html-files.jpg)
 
 + CSS
   + No errors were returned when passing through the official [W3C (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
     + style.css
 
-    ![w3c CSS (jigsaw) validator testing result](assets/docs/validator-css-files.jpg)
+    ![w3c CSS (jigsaw) validator testing result](media/readme-images/validator-css-files.jpg)
 
 #### **Responsiveness**
 1. Open deployed website in Chrome browser
@@ -290,25 +290,25 @@ The following errors were found during extensive testing:
 
 1. On an ultrawide monitor (width 2560px and above) the logo border and logo slogan stretch too much to each side and outside the div.
 
-    ![logo stretching too much on ultrawide monitors](assets/docs/test-logo.jpg)
+    ![logo stretching too much on ultrawide monitors](media/readme-images/test-logo.jpg)
 + This is due the width element was set to viewport-width
 + This issue has been resolved by setting a fixed with using pixels 
 
 2. On smaller Smartphone, when clicking a navigation element, the navigation bar cuts off the header for each section.
 
-    ![navigation bar cutting off headers](assets/docs/test-navigation.jpg)
+    ![navigation bar cutting off headers](media/readme-images/test-navigation.jpg)
 + This is due to the scroll-margin-top setting
 + This issue has been resolved by increasing the scroll-margin-top for smaller devices
 
 3. Images in the About us section stretch when viewed on any Apple device.
    
-    ![stretched image on Apple device](assets/docs/test-image-size.jpg)
+    ![stretched image on Apple device](media/readme-images/test-image-size.jpg)
 + This issue arises when the image height is not defined in the media query
 + This issue has been resolved by setting the image height to 'auto'
 
 4. Users complained, that the text paragraphs contain big chunks of blank spaces between words.
 
-    ![blank spaces between words](assets/docs/test-text-align.jpg)
+    ![blank spaces between words](media/readme-images/test-text-align.jpg)
 + This issue occurs because the 'text-align' property is set to 'justify', which stretches blank spaces to make the text have equal spacing on both sides
 + This issue has been resolved by setting the text-align to 'left'
 
