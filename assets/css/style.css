@@ -915,8 +915,12 @@ footer ul {
     }
 
     .team-images {
-        width: 100%;
+        width: 260px;
         height: auto;
+    }
+
+    .wrapper:hover .overlay {
+        height: 336px;
     }
 
     /* gallery */
@@ -1141,8 +1145,12 @@ footer ul {
     }
 
     .team-images {
-        width: 100%;
+        width: 260px;
         height: auto;
+    }
+
+    .wrapper:hover .overlay {
+        height: 336px;
     }
 
     /* gallery */
